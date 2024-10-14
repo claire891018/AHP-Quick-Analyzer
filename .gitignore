@@ -1,0 +1,63 @@
+# Python相關
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+*.env
+*.env.*
+*.DS_Store
+
+# Jupyter Notebook快取
+.ipynb_checkpoints/
+
+# Log 檔案
+*.log
+logs/
+
+# 本地設定和編輯器檔案
+.vscode/
+.idea/
+*.swp
+*~
+
+# FastAPI 相關
+*.db
+*.sqlite3
+
+# Streamlit快取
+.streamlit/
+*.pyc
+
+# Docker相關
+docker-compose.override.yml
+.env.docker
+**/data/*   # 若有資料資料夾可以忽略它
+
+# 安裝套件
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-log.txt
+
+# pytest / mypy / coverage測試
+.mypy_cache/
+.pytest_cache/
+htmlcov/
+
+# Excel暫存資料
+
+
+
+# 依賴套件列表
+!requirements.txt
+
+# .cache資料夾
+.cache/
+
+# 臨時檔案
+*.tmp
+*.bak
