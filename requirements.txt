@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pandas
+openpyxl
+xlsxwriter
+streamlit
+requests
+python-multipart
